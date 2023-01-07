@@ -382,7 +382,10 @@ h2 {
   cursor: pointer;
   fill: var(--fifth-color);
 }
-.clients:focus
+.clients:focus {
+  border-radius: 50%;
+  color: var(--fifth-color);
+}
 
 .clients-size {
   width: 106;
